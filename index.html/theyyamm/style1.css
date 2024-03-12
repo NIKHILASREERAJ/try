@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-main{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.head1{
+    width: 50%;
+    height: 50px;
+    color: red;
+    font-size: 30px;
+    margin-left: 25px;
+    padding-top: 20px;
+    float: left;
+    
+}
+.head2{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    float: left;
+    font-size: 25px;
+   
+    padding-top:20px ;
+    padding-left: 500px;
+}
+.menu{
+    width: 90px;
+    height: 25px;
+    
+    color: rgb(17, 141, 194);
+}
+.contact-us{
+    width: 140px;
+    height: 25px;
+    position: relative;
+    display: inline-block;
+    color: rgb(17, 141, 194);
+}
+.channel{
+    width: 90px;
+    height: 25px;
+    
+    color: rgb(17, 141, 194);
+}
+
+.location{
+    width: 160px;
+    height: 25px;
+   
+    padding-left: 18px;
+    color: rgb(17, 141, 194);
+}
+.main-body{
+    width: 50%;
+    height: 500px;
+    
+    margin-left: 300px;
+   
+   
+    
+    
+    
+}
+.open{
+    width: 100%;
+    height: 250px;
+    
+    border-color: black;
+    border-style: double;
+    
+}
+.contact{
+    width: 100%;
+    height: 50px;
+    
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    border-color: black;
+    border-style: double;
+    
+
+    
+}
+.form{
+    width: 100%;
+    height: 200px;
+    
+    border-color: black;
+    border-style: double;
+    text-align: center;
+   
+}
+.available-room{
+    width: 100%;
+    height: 200px;
+    
+    border-color: black;
+    border-style: double;
+}
+.rooms{
+    width: 100%;
+    height:50px ;
+   
+    border-color: black;
+    border-style: double;
+}
+.first-label{
+    text-align: center;
+    margin-top: 5px;
+    
+   
+}
+.second-label{
+    text-align: center;
+    padding-top: 5px;
+    
+   
+}
+.third-label{
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.align{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.radius{
+    border-radius: 5px;
+    
+}
+.available-room{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 25px;
+    height: 50px
+ 
+}
+.rooms{
+    text-align: center;
+    padding-top: 10px;
+    height: 100px;
+}
+
+.submit-btn:hover{
+    background-color:green;
+    color: white;
+
+}
+.submit-btn2:hover{
+    background-color:green;
+    color: white;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 141, 194);
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:red;}
